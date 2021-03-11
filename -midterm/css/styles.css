@@ -1,0 +1,213 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+* {
+    box-sizing: border-box
+  }
+
+/* HTML5 display-role reset for older browsers */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    width:100%;
+}
+header{
+    padding: 6rem 3rem;
+    background-image: url(../img/lone-starfish-wide.jpg);
+    margin: auto;
+    
+}
+
+    img {
+ float: left;
+  width: 300px;
+  height: auto;
+  margin: 0 1rem 1rem 0;
+              
+      }
+
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* MY STYLES */
+
+body {
+    background-color: #aad4cf ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.navbar {
+    left: 0;
+    margin: auto;
+    padding: 5px;
+   width: 100%;
+   background-color: #d4e9e7;
+   border-style: groove;
+   
+   overflow: auto;
+ }
+ 
+ .navbar a {
+   float: left;
+   padding: 4px;
+   text-decoration: none;
+   color: #1e5375;
+   font-size: 17px;
+   width: 30%; /* Four links of equal widths */
+   text-align: center;
+ }
+ .navbar a:hover {
+   background-color: #06124ece;
+   color:white;
+   text-decoration: underline;
+ }
+ 
+  .navbar a:active {
+   color: #be2e76;
+ }
+ 
+ @media screen and (max-width: 500px) {
+   .navbar a {
+     float: none;
+     display: block;
+     width: 100%;
+     text-align: left;
+   }
+ }
+ h1 {
+    text-align: center;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 64px;
+   
+  }
+
+h2{
+    font-size: 27px;
+}
+
+p{
+    line-height: 24px;
+    
+}
+
+article {
+    width: 1024px;
+    margin: 0 auto;
+    background-color: #d4e9e7;
+    padding: 20px;
+}
+
+.header, main, footer{
+    
+    background-color:#d4e9e7 ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    width: 1004px;
+    padding: 10px;
+}
+
+
+
+
+header {
+height: 264px;
+background-color: pink;
+}
+
+
+h3 {
+  font-size: 24px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+h1{
+  font-size: 22px;
+  color: black;
+}
+
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
